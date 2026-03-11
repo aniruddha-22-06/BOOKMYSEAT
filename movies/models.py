@@ -47,6 +47,7 @@ class Movie(models.Model):
     cast = models.TextField()
     description = models.TextField(blank=True, null=True)
     trailer_url = models.URLField(blank=True, null=True, validators=[validate_youtube_trailer_url])
+    metadata = models.JSONField(default=dict, blank=True)
     genres = models.ManyToManyField('Genre', related_name='movies', blank=True)
     languages = models.ManyToManyField('Language', related_name='movies', blank=True)
 
