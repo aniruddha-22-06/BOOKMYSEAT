@@ -29,6 +29,16 @@ class Movie(models.Model):
         'kalki 2898 ad': 'https://upload.wikimedia.org/wikipedia/en/4/4c/Kalki_2898_AD.jpg',
         'stree 2': 'https://upload.wikimedia.org/wikipedia/en/a/a1/Stree_2.jpg',
         'fighter': 'https://upload.wikimedia.org/wikipedia/en/d/df/Fighter_film_teaser.jpg',
+        'oppenheimer': 'https://upload.wikimedia.org/wikipedia/en/4/4a/Oppenheimer_%28film%29.jpg',
+        'dune': 'https://upload.wikimedia.org/wikipedia/en/a/a6/Dune_%282021_film%29.jpg',
+        'the dark knight': 'https://upload.wikimedia.org/wikipedia/en/8/8a/Dark_Knight.jpg',
+        'titanic': 'https://upload.wikimedia.org/wikipedia/en/2/22/Titanic_poster.jpg',
+        'avatar': 'https://upload.wikimedia.org/wikipedia/en/b/b0/Avatar-Teaser-Poster.jpg',
+        'bahubali: the beginning': 'https://upload.wikimedia.org/wikipedia/en/7/7e/Baahubali_The_Beginning_poster.jpg',
+        'bahubali 2: the conclusion': 'https://upload.wikimedia.org/wikipedia/en/f/f9/Baahubali_the_Conclusion.jpg',
+        'rrr': 'https://upload.wikimedia.org/wikipedia/en/d/d7/RRR_Poster.jpg',
+        'kgf: chapter 1': 'https://upload.wikimedia.org/wikipedia/en/c/ca/K.G.F_Chapter_1_poster.jpg',
+        'kgf: chapter 2': 'https://upload.wikimedia.org/wikipedia/en/5/5f/KGF_Chapter_2_poster.jpg',
     }
 
     name = models.CharField(max_length=255)
